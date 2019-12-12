@@ -21,8 +21,14 @@ public class StringUtility {
 
 
 
+    public static void verifyEquals(int expected, int actual){
 
+      //method overloading change the parameters to the int
 
+        System.out.println( (expected ==(actual)?"PASS:": "FAIL")
+                +   "\nExpected result: " + expected +"\n"+ "Actual result: " + actual );
+
+    }
 }
 
 

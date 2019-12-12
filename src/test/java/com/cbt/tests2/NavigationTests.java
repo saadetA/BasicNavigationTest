@@ -1,9 +1,8 @@
-package com.cbt.tests;
+package com.cbt.tests2;
 
 
 import com.cbt.utilities.BrowserFactory;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static com.cbt.utilities.StringUtility.verifyEquals;
 
@@ -12,9 +11,9 @@ public class NavigationTests {
 
 
     public static void main(String[] args) {
-        navigationTest("chrome");
+//        navigationTest("chrome");
         navigationTest("firefox");
-        navigationTest("safari");
+//        navigationTest("safari");
 
 
     }
