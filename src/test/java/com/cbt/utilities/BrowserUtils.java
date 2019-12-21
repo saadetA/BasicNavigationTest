@@ -1,5 +1,7 @@
 package com.cbt.utilities;
 
+import org.openqa.selenium.WebElement;
+
 public class BrowserUtils {
 
     public static void wait(int seconds){
@@ -13,4 +15,6 @@ public class BrowserUtils {
     }
 
 
+    public static void clickWithWait(WebElement module) {
+    }
 }
